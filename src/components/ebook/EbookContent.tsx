@@ -37,7 +37,7 @@ const EbookContent = () => {
         <p><strong>Exemplo:</strong> Se emprestar R$300 para 5 clientes (R$1500 total), em 30 dias você recebe R$1650 (+R$150 de lucro).</p>
       </HighlightBox>
 
-      <h3 className="font-playfair text-2xl font-bold text-primary mb-6">Fontes de Capital:</h3>
+      <h3 className="font-montserrat text-2xl font-bold text-primary mb-6">Fontes de Capital:</h3>
       
       <div className="space-y-4 mb-8">
         <ChecklistItem>
@@ -64,7 +64,7 @@ const EbookContent = () => {
         (SEU ANÚNCIO QUE ROLA NO WHATSAPP, INSTA E FACEBOOK)
       </p>
 
-      <h3 className="font-playfair text-2xl font-bold text-primary mb-6">
+      <h3 className="font-montserrat text-2xl font-bold text-primary mb-6">
         Por que cartão digital é MELHOR que cartão físico?
       </h3>
       
@@ -109,7 +109,7 @@ const EbookContent = () => {
       {/* Chapter 3 */}
       <ChapterTitle number={3} title="GATILHOS QUE FAZEM CLIENTES TE PROCURAR" />
       
-      <h3 className="font-playfair text-2xl font-bold text-primary mb-6">
+      <h3 className="font-montserrat text-2xl font-bold text-primary mb-6">
         No cartão digital, USE ESSAS PALAVRAS:
       </h3>
       
@@ -140,7 +140,7 @@ const EbookContent = () => {
       {/* Chapter 5 */}
       <ChapterTitle number={5} title="PERFIL DOS CLIENTES QUE PAGAM" />
       
-      <h3 className="font-playfair text-2xl font-bold text-primary mb-6">
+      <h3 className="font-montserrat text-2xl font-bold text-primary mb-6">
         10 Exemplos de Clientes Ideais:
       </h3>
       
@@ -203,7 +203,7 @@ const EbookContent = () => {
       {/* Chapter 7 */}
       <ChapterTitle number={7} title="VALOR MÁXIMO E FREQUÊNCIA" />
       
-      <h3 className="font-playfair text-2xl font-bold text-primary mb-6">Tabela de Controle:</h3>
+      <h3 className="font-montserrat text-2xl font-bold text-primary mb-6">Tabela de Controle:</h3>
       
       <EbookTable
         headers={['Tipo de Cliente', 'Valor Máximo', 'Prazo', 'Juros']}
@@ -248,12 +248,12 @@ const EbookContent = () => {
         <p><strong>Dica Bônus:</strong> Ofereça "desconto" pra quem paga antes (ex.: 5% off se pagar em 10 dias).</p>
       </HighlightBox>
 
-      <div className="text-center mt-16 mb-8">
+        <div className="text-center mt-16 mb-8">
         <div className="bg-gradient-gold rounded-2xl p-8 shadow-gold">
-          <p className="font-playfair text-3xl font-bold text-primary mb-4">
+          <p className="font-montserrat text-3xl font-bold text-primary mb-4">
             Agora sim: ebook completo,
           </p>
-          <p className="font-playfair text-2xl font-bold text-primary">
+          <p className="font-montserrat text-2xl font-bold text-primary">
             sem mistério e pronto pra colocar em prática.
           </p>
         </div>

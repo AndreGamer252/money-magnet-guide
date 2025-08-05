@@ -8,45 +8,45 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Ebook Design System - Navy Blue & Gold Theme */
+    /* Ebook Design System - Green & Light Black Theme */
     --background: 0 0% 100%;
-    --foreground: 225 30% 15%;
+    --foreground: 0 0% 6.7%;
 
     --card: 0 0% 100%;
-    --card-foreground: 225 30% 15%;
+    --card-foreground: 0 0% 6.7%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 225 30% 15%;
+    --popover-foreground: 0 0% 6.7%;
 
-    /* Primary: Navy Blue */
-    --primary: 225 60% 25%;
+    /* Primary: Light Black */
+    --primary: 0 0% 6.7%;
     --primary-foreground: 0 0% 98%;
 
-    /* Secondary: Blue Gradient */
-    --secondary: 225 55% 35%;
+    /* Secondary: Dark Green */
+    --secondary: 142 76% 25%;
     --secondary-foreground: 0 0% 98%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    /* Accent: Golden */
-    --accent: 51 100% 50%;
-    --accent-foreground: 225 60% 25%;
+    /* Accent: Green */
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 98%;
 
-    /* Gold variants */
-    --gold: 51 100% 50%;
-    --gold-foreground: 225 60% 25%;
-    --orange-gold: 39 100% 50%;
+    /* Gold variants (now green) */
+    --gold: 142 76% 36%;
+    --gold-foreground: 0 0% 6.7%;
+    --orange-gold: 142 76% 46%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(225 60% 25%), hsl(225 55% 35%));
-    --gradient-gold: linear-gradient(135deg, hsl(51 100% 50%), hsl(39 100% 50%));
-    --gradient-cover: linear-gradient(135deg, hsl(225 60% 15%), hsl(225 55% 25%));
+    --gradient-primary: linear-gradient(135deg, hsl(0 0% 6.7%), hsl(0 0% 13%));
+    --gradient-gold: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 76% 46%));
+    --gradient-cover: linear-gradient(135deg, hsl(0 0% 6.7%), hsl(142 76% 15%));
 
     /* Shadows */
-    --shadow-gold: 0 10px 30px -10px hsl(51 100% 50% / 0.3);
-    --shadow-elegant: 0 10px 40px -15px hsl(225 60% 25% / 0.4);
-    --shadow-deep: 0 20px 60px -20px hsl(225 60% 15% / 0.5);
+    --shadow-gold: 0 10px 30px -10px hsl(142 76% 36% / 0.3);
+    --shadow-elegant: 0 10px 40px -15px hsl(0 0% 6.7% / 0.4);
+    --shadow-deep: 0 20px 60px -20px hsl(0 0% 6.7% / 0.5);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
