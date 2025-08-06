@@ -225,15 +225,33 @@ const EbookContent = () => {
       <ChapterTitle number={8} title="PLANILHA DE CONTROLE (EXEMPLO)" />
       
       <HighlightBox title="Itens Essenciais:">
-        <h4 className="font-inter text-lg font-bold mb-3">Colunas:</h4>
-        <div className="grid md:grid-cols-2 gap-2">
-          <ChecklistItem>Data</ChecklistItem>
-          <ChecklistItem>Nome</ChecklistItem>
-          <ChecklistItem>Telefone</ChecklistItem>
-          <ChecklistItem>Valor</ChecklistItem>
-          <ChecklistItem>Vencimento</ChecklistItem>
-          <ChecklistItem>Garantia</ChecklistItem>
-          <ChecklistItem>Situação do pagamento</ChecklistItem>
+        <h4 className="font-inter text-lg font-bold mb-3">Colunas da Planilha:</h4>
+        
+        <div className="overflow-x-auto">
+          <table className="w-full border-collapse bg-white rounded-lg shadow-sm">
+            <thead>
+              <tr className="bg-secondary text-white">
+                <th className="border border-gray-200 p-3 text-left font-inter font-semibold">Data</th>
+                <th className="border border-gray-200 p-3 text-left font-inter font-semibold">Nome</th>
+                <th className="border border-gray-200 p-3 text-left font-inter font-semibold">Telefone</th>
+                <th className="border border-gray-200 p-3 text-left font-inter font-semibold">Valor</th>
+                <th className="border border-gray-200 p-3 text-left font-inter font-semibold">Vencimento</th>
+                <th className="border border-gray-200 p-3 text-left font-inter font-semibold">Garantia</th>
+                <th className="border border-gray-200 p-3 text-left font-inter font-semibold">Situação</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="bg-gray-50">
+                <td className="border border-gray-200 p-3 text-primary font-inter">01/12/2024</td>
+                <td className="border border-gray-200 p-3 text-primary font-inter">João Silva</td>
+                <td className="border border-gray-200 p-3 text-primary font-inter">(11) 99999-9999</td>
+                <td className="border border-gray-200 p-3 text-primary font-inter">R$ 500</td>
+                <td className="border border-gray-200 p-3 text-primary font-inter">01/01/2025</td>
+                <td className="border border-gray-200 p-3 text-primary font-inter">Celular iPhone</td>
+                <td className="border border-gray-200 p-3 text-primary font-inter">Pendente</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         
         <h4 className="font-inter text-lg font-bold mb-3 mt-6">Apps:</h4>
