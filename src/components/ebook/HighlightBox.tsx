@@ -9,12 +9,12 @@ const HighlightBox = ({ title, children, type = 'gold', className = "" }: Highli
   const getBoxStyles = () => {
     switch (type) {
       case 'tip':
-        return 'bg-green-50 border-l-4 border-secondary text-primary';
+        return 'bg-green-100 border-l-4 border-secondary text-primary border border-secondary/20';
       case 'warning':
-        return 'bg-orange-50 border-l-4 border-orange-500 text-primary';
+        return 'bg-orange-100 border-l-4 border-orange-500 text-primary border border-orange-500/20';
       case 'gold':
       default:
-        return 'bg-gradient-gold text-primary shadow-gold';
+        return 'bg-green-50 border-2 border-secondary text-primary shadow-elegant';
     }
   };
 
